@@ -10,6 +10,7 @@
 
 body {
     line-height: 1.6;
+    color: #a19191;
 }
 
 .container {
@@ -22,12 +23,18 @@ ul {
 
 a {
     text-decoration: none;
+    color: #a19191;
 }
 
 h1, h2 {
     font-weight: 300;
     line-height: 1.2;
     margin: 10px 0;
+}
+
+h2 {
+  font-size: 42px;
+  letter-spacing: 2.5px;
 }
 
 p {
@@ -53,7 +60,9 @@ nav {
 
 #top-nav nav .nav-link {
     font-size: 24px;
-    color: #b9acac;
+    color: #a19191;
+    /* color: #958383; */
+    letter-spacing: 2.5px;
 }
 
 /* --------SHOWCASE----------- */
@@ -132,35 +141,11 @@ nav {
 }
 
 /* ------_SERVICES_------ */
-  #services-section .container {
-    width: 140vh;
-  }
-  
-  .service-card {
-    width: 300px;
-    height: 300px;
-    color: #202020;
-    background-color: #ffd100;
-    transition: all 0.2s ease-in-out;
-  }
-  
-  .service-card:hover {
-    transform: scale(1.1);
-  }
-  
-  .service-card h2 {
-    font-size: 24px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-  
-  #services-section .service-card p {
-    color: #202020;
-    font-size: 20px;
-    font-weight: 700;
-  }
+#services h3 {
+  font-weight: 100;
+}
 
-  /* ------REVIEWS------ */
+  /* ------CONTACT DIVIDER------ */
 #contact-divider {
     /* margin-top: 70px; */
     height: 70vh;
@@ -168,15 +153,24 @@ nav {
     text-align: center;
 }
 
-#contact-divider h3 {
+
+
+#contact-divider h2 {
     padding-top: 30vh;
+    font-size: 48px;
+    font-weight: 400;
 }
-  
+
+
   /* ------REVIEWS------ */
   #reviews-section {
-    background-color: #ffd100;
+    /* background-color: #ffd100; */
     font-weight: 700;
     padding: 75px 0;
+  }
+
+  #reviews-section .blockquote {
+    font-weight: 400;
   }
 
 #reviews-section #container {
@@ -197,20 +191,57 @@ nav {
   
 
 /* ---FOOTER--- */
+#contact .first {
+  width: 200px;
+  margin-left: 75px;
+}
+
+#contact .second {
+  margin-left: 100px;
+}
+
+#contact .third {
+  width: 24.333333%;
+}
+
+#contact ul {
+  padding-left: 0;
+}
+
+#contact h3 {
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+#contact .social {
+  width: 300px;
+  font-size: 32px;;
+}
+
 /* #contact-section {
     background-color: #202020;
   } */
+
+  #contact-section {
+    margin: 0 auto;
+  }
   
   #contact-section .contact-container {
     /* width: 1200px; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
   
   #contact-section h3 {
     font-size: 24px;
-    font-weight: 700;
+    letter-spacing: 2px;;
+    /* font-weight: 100; */
     /* color: #ffd100; */
     text-transform: uppercase;
+  }
+
+  #contact-section p {
+    text-align: justify;
   }
   
   #contact-section ul {
@@ -236,7 +267,7 @@ nav {
   
   #contact-section footer a {
     font-size: 13px;
-    color: #ffd100;
+    /* color: #ffd100; */
   }
   
   @media only screen and (max-width: 900px) {
@@ -250,3 +281,17 @@ nav {
       width: 100%;
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
