@@ -1,0 +1,23 @@
+#about-header {
+    margin-top: 70px;
+    height: 70vh;
+    background: url('https://images.unsplash.com/photo-1597098079673-d241199656dd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80') center/cover no-repeat fixed;
+}
+
+.dark-overlay {
+    margin-top: 70px;
+    background-color: rgba(54, 51, 104, 0.37);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 70vh;
+    color: #fff;
+    }
+
+    #about-header h2 {
+        padding-top: 200px;
+        color: #fff;
+        font-size: 58px;
+        font-weight: 600;
+    }
